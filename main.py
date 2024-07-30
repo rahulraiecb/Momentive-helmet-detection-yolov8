@@ -10,7 +10,7 @@ from ultralytics import YOLO
 
 # source = "../RESOURCES\helmet.mp4"
 # Custom trained Model we are using for helmet detection
-model = YOLO("/Users/meryem/Downloads/Safety-Helmet-Detection-yoloV8-main/models/hemletYoloV8_100epochs.pt")
+model = YOLO("D:/Momentive_helmet-detection-yolov8/Momentive-helmet-detection-yolov8/models/hemletYoloV8_100epochs.pt")
 
 # frame width and height
 frame_wid = 640
